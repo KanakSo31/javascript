@@ -68,7 +68,7 @@ console.log((3 + 8) % 5 * 9);
 // should not try to write code like this
 console.log(+true);
 console.log(+"");
-// isted of write like this
+// istead of write like this
 console.log(true);
 console.log(false);
 
