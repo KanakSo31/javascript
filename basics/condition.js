@@ -2,7 +2,7 @@ let temperature;
 
 // getting temperature from google
 
-temperature = 20;
+temperature = 31;
 
 if (temperature <= 20){
     // hardcore the value 
@@ -12,5 +12,5 @@ if (temperature <= 20){
 if (temperature <= 30){
     console.log("it's Moderate Outside")
 }else{
-    console.log("it's very Hot Outside")
+    console.log("it's Really Hot Outside")
 }
