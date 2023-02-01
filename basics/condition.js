@@ -26,7 +26,7 @@ if (temperature <= 30){
 
 let email = false;
 let facebook = true;
-let google = true;
+let google = false;
 
 
 // write the block of code with if-else statement to pass the aggument passed by the user
@@ -35,4 +35,7 @@ let google = true;
 if(email || facebook || google){
 
     console.log("Login succesfull");
+}
+else{
+    console.log("!!Opps Sorry Please Login");
 }
