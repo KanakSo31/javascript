@@ -39,3 +39,31 @@ if(email || facebook || google){
 else{
     console.log("!!Opps Sorry Please Login");
 }
+
+// show user a signout button if he is authenticated
+// otherwise show him option to Login/SignUp
+
+let authenticate = true;
+
+if(authenticate){
+    console.log("Show signout button");
+}
+else{
+    console.log("Show login Option");
+}
+
+
+// if the conditions false
+let authenticatee = false;
+
+if(authenticatee){
+    console.log("Show signout button");
+}
+else{
+    console.log("Show login Option");
+}
+
+// now the shorthand way of write
+let authenticated = false;
+// if else in shorthand methode
+authenticated ? console.log("signout Button") : console.log("LogIn");
