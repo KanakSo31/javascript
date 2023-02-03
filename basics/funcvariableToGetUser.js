@@ -37,3 +37,4 @@ console.log(getUserRole("kanak", "testprep"));
 let getRole = getUserRole ("rummy", "user");
 
 console.log(getRole);
+console.log("all done today)";
