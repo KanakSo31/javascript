@@ -9,27 +9,31 @@
 // input: getUserRole(name, role)
 
 
-function getUserRole(name, role){
+let getUserRole = function (name, role){
     switch (role) {
         case "admin":
             return `${name} is admin with all available access`
-            break;
+           // break; //we can use break but it is not necessary
     
         case "subadmin":
             return `${name} is subadmin acces with create and delet course`
-            break;
+            // break;
         case "testprep":
             return `${name} is testprep acces with create and delet tests`
-            break;
+            // break;
         case "user":
             return `${name} is user to consume course content`
-            break;
+            // break;
             
             default:
             return `${name} is a trial user`
-            break;
+            // break;
     }
     
-}
+};
 
 console.log(getUserRole("kanak", "testprep"));
+
+let getRole = getUserRole ("rummy", "user");
+
+console.log(getRole);
