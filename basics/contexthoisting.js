@@ -52,3 +52,17 @@ console.log(name);
 // but once you try to log the file before declearing it this will throw an undefined messsgae
 // console.log(name1);
 // let name1 = "kanak"
+
+
+
+
+console.log(name2);
+let name2 = "kanak";
+
+function sayName() {
+    let name2 = "MR. K";
+    console.log(name2);
+}
+sayName();
+
+console.log(name);
