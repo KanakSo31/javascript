@@ -28,7 +28,7 @@ function tipper(a){
 
 
 // But this will not through any error
-// So Be careful while calling and declearing a function
+// So Be careful while calling and declearing a function keep in mind that there is a term called hoisting
 
 let bigTipper = function (a){
     let bill = parseInt(a);
