@@ -55,9 +55,9 @@ console.log(name);
 
 
 
-
-console.log(name2);
-let name2 = "kanak";
+// this will throw an error due to global context
+// console.log(name2);
+// let name2 = "kanak";
 
 function sayName() {
     let name2 = "MR. K";
