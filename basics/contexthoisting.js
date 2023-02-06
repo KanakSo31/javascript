@@ -42,3 +42,13 @@ let bigTipper = function (a){
 }
 
 bigTipper("480")
+
+// code hoisting: variable declerations are scanned and made undefined
+
+
+// this will work
+let name = "kanak"
+console.log(name);
+// but once you try to log the file before declearing it this will throw an undefined messsgae
+// console.log(name1);
+// let name1 = "kanak"
