@@ -5,6 +5,12 @@ function tipper(a){
     console.log((bill + 5));
 }
 
+
+
+// UNDERSTANDING of function and a variable function
+
+
+
 // this function will work fine
 
 // function bigTipper(a){
