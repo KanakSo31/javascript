@@ -15,3 +15,9 @@ const result = myNumber.filter((num) => num != 65);
 console.log(result);
 
 // SLICE AND SPLICE
+
+let  users = ["kanak", "Romen", "Khogen", "Brindabon", "Harikrishna", "Ramchandra"];
+
+// SLICE
+// One is the starting point And The 3 is the End point
+console.log(users.slice(1, 4));
