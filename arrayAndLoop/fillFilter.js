@@ -14,10 +14,22 @@ const result = myNumber.filter((num) => num != 65);
 
 console.log(result);
 
+
 // SLICE AND SPLICE
 
+// SLICE Methode
 let  users = ["kanak", "Romen", "Khogen", "Brindabon", "Harikrishna", "Ramchandra"];
 
-// SLICE
 // One is the starting point And The 3 is the End point
-console.log(users.slice(1, 4));
+// console.log(users.slice(1, 4));
+
+
+
+//SPLICE Methode 
+
+let  userss = ["kanak", "Romen", "Khogen", "Brindabon", "Harikrishna", "Ramchandra"];
+
+
+// First one Starting(1) is the starting count and the end (3) is the end count it delet them and replace the value(Hii) on that positions.
+userss.splice(1, 2, "Hii");
+console.log(userss);
