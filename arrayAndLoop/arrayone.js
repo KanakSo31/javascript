@@ -1,6 +1,11 @@
+
+
 function isEven(element) {
-    // we can make it a arrow function by adding the => symbol as follows
-// function isEven(element) {
+
+    // we can convert this function to a arrow function by adding the => symbol as follows
+
+// let isEven = (element) => {
+
     if (element % 2 === 0) {
         return true;
     }
