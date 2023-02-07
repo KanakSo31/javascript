@@ -16,5 +16,6 @@ function isEven(element) {
 
 // console.log(isEven(8));
 
+// this check all the numbers ansd id every number is even then print true else false
 let result = [2, 6, 8, 4].every(isEven)
 console.log(result);
