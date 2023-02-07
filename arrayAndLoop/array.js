@@ -20,3 +20,13 @@ console.log(user);
 user.pop();
 user.pop();
 console.log(user);
+// adding a value to an array at the begining and shift the other value to next position
+user.unshift("NEW VALUE")
+console.log(user);
+
+// Deleting Value From the begining
+user.shift();
+console.log(user);
+
+// finding the index or position of an element
+console.log(user.indexOf("hello"));
