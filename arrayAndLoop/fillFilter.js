@@ -13,3 +13,5 @@ let myNumber = [25, 26, 59, 46, 78, 89, 98, 76, 65, 62, 63, 65, 64, 68,];
 const result = myNumber.filter((num) => num != 65);
 
 console.log(result);
+
+// SLICE AND SPLICE
