@@ -14,4 +14,7 @@ function isEven(element) {
 // return element % 2 === 0;
 }
 
-console.log(isEven(8));
+// console.log(isEven(8));
+
+let result = [2, 6, 8, 4].every(isEven)
+console.log(result);
