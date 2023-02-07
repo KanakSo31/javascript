@@ -31,5 +31,5 @@ let  userss = ["kanak", "Romen", "Khogen", "Brindabon", "Harikrishna", "Ramchand
 
 
 // First one Starting(1) is the starting count and the end (3) is the end count it delet them and replace the value(Hii) on that positions.
-userss.splice(1, 2, "Hii");
+userss.splice(1, 2, "Hii", "BYE");
 console.log(userss);
