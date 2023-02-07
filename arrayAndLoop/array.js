@@ -30,3 +30,6 @@ console.log(user);
 
 // finding the index or position of an element
 console.log(user.indexOf("hello"));
+
+// convert to csv
+console.log(Array.from("Kanak"));
