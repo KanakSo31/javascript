@@ -21,3 +21,13 @@ for (let i = 0; i < myStates.length; i++) {
     console.log(myStates[i]);
 }
 console.log("break this is different");
+//  to findout all the numbers
+for (let i = 0; i < myStates.length; i++) {
+    if(typeof myStates[i] === 'string') continue;
+    console.log(myStates[i]);
+}
+//  to break all the process once not matched with string
+for (let i = 0; i < myStates.length; i++) {
+    if(typeof myStates[i] !== 'string') continue;
+    console.log(myStates[i]);
+}
