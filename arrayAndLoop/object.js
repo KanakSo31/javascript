@@ -14,3 +14,7 @@ console.log(user.loginCount);
 user.loginCount = 44;
 console.log(user.loginCount);
 console.table(user);
+
+
+// HW
+// Write some object for A mobile and print them in a table
