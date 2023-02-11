@@ -15,6 +15,6 @@ let symbols = {
 for(const n in symbols ){
 
     // $symbols[n] is the way of reading the values from an object
-    console.log();
+    // console.log(symbols[n]);
     console.log(`keys in symbols are: ${n} and values is: ${symbols[n]}`);
 }
