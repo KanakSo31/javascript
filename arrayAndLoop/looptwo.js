@@ -14,3 +14,9 @@ let myStates = [
 //         console.log(i);
 //         i++;
 // }
+
+// FOR EACH LOOP
+
+
+myStates.forEach((s) => (console.log(s)));
+myStates.forEach(s => (console.log(s)));
