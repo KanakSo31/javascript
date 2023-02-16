@@ -30,3 +30,5 @@ magicColorPick(cyan, getBGColor(cyan));
 magicColorPick(violet, getBGColor(violet));
 magicColorPick(orange, getBGColor(orange));
 magicColorPick(pink, getBGColor(pink));
+
+// extend to a disco music player using js
