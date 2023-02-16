@@ -2,7 +2,7 @@ let User = function (firstName, courseCount){
     this.firstName = firstName;
     this.courseCount = courseCount;
     this.getCourseCount = function(){
-        console.log(`Course enrolled is: ${this.courseCount}`);
+        console.log(`Course enrolled in: ${this.courseCount}`);
     };
 };
 
@@ -11,7 +11,10 @@ User.prototype.getFirstname = function () {
 };
 
 let kanak = new User("Kanak", 2);
-kanak.getFirstname()
+
+if (kanak.hasOwnProperty("firstName")) {
+    kanak.getFirstname()
+}
 kanak.getCourseCount();
 // console.log(kanak);
 
