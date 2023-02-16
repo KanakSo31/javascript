@@ -12,4 +12,4 @@ const getBGColor = (selectedElement) =>{
     return window.getComputedStyle(selectedElement).backgroundColor;
 };
 
-console.log(getBGColor(red));
+console.log(getBGColor(pink));
