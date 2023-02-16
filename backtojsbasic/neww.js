@@ -19,6 +19,8 @@ kanak.getCourseCount();
 // console.log(kanak);
 
 let Ukanak = new User("Kanak1", 3);
-Ukanak.getFirstname()
+if (Ukanak.hasOwnProperty("firstNamew")) {
+    Ukanak.getFirstname()
+}
 Ukanak.getCourseCount();
 // console.log(Ukanak);
