@@ -1,8 +1,12 @@
 function init() {
-    var firstName= "kanak"
+    var firstName= "kanak is a good boy";
+    console.log("This is init");
+
     function sayFirstName() {
         console.log(firstName);
     }
-    sayFirstName();
+    return sayFirstName;
 }
-init();
+var value = init();
+
+value();
