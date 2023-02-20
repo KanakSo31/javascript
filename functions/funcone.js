@@ -12,9 +12,7 @@
 // Shoud have no function name 
 // wrap up with a pair of parenthesis
 
-function SayHello() {
+(function () {
     console.log("I say hello to You");
     console.log("I say hello again");
-}
-
-SayHello()
+})();
