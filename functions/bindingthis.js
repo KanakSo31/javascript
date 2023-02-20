@@ -31,5 +31,5 @@ kanak.getInfo.bind(dj)();//we can use this or we can use below methode
 let djInfo = kanak.getInfo.bind(dj);
 djInfo();
 
-//also we can use call methode to get them automatically
+//also we can use call methode to get them without calling manually
 kanak.getInfo.call(dj);
