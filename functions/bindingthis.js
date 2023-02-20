@@ -22,3 +22,10 @@ let dj = {
 };
 
 kanak.getInfo()
+// dj.getInfo()// this wil throw error but 
+//we can use the binding methode to get the referance from the older methode that is kanak
+kanak.getInfo.bind(dj)();//we can use this or we can use below methode
+//by storing into a referance
+
+let djInfo = kanak.getInfo.bind(dj);
+djInfo();
