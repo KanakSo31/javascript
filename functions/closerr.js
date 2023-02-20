@@ -22,3 +22,5 @@ var add5 = doAddition(4);
 console.log("The Number Is:", + add5(5));
 
 console.log(doAddition(5)(7)); //capability of printing using parenthesis
+
+//doAddition()()()//curring methode
