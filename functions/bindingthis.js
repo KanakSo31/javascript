@@ -26,6 +26,10 @@ kanak.getInfo()
 //we can use the binding methode to get the referance from the older methode that is kanak
 kanak.getInfo.bind(dj)();//we can use this or we can use below methode
 //by storing into a referance
+//binding gives us a reference and we have to call them manually but
 
 let djInfo = kanak.getInfo.bind(dj);
 djInfo();
+
+//also we can use call methode to get them automatically
+kanak.getInfo.call(dj);
