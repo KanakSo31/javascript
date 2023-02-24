@@ -15,25 +15,28 @@ const courses = [
         name: "Complete C++ Course",
         price: "440",
     },
-    {
-        name: "Complete MERN Course",
-        price: "450",
-    },
 ];
 
-function CourseList() {
+function generateLIST() {
     const ul = document.querySelector(".list-grup");
     courses.forEach((course) => {
         
-        const li = document.createElement("li")
-        li.classList.add("list-grup-item")
+        const li = document.createElement("li");
+        li.classList.add("list-group-item");
 
-        const name = document.createTextNode(course.name)
-        li.appendChild(name)
+        const name = document.createTextNode(course.name);
+        li.appendChild(name);
 
-        const span = document.createElement("span")
-        span.classList.add("float-right")
+        const span = document.createElement("span");
+        span.classList.add("float-right");
+
+        const price = document.createTextNode("$ " + course.price);
+        span.appendChild(price);
+
+        li.appendChild(span);
+        ul.appendChild
     }); 
 }
 
-CourseList();
+// generateLIST();
+window.addEventListener("load", generateLIST);
