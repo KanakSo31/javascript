@@ -18,7 +18,7 @@ const courses = [
 ];
 
 function generateLIST() {
-    const ul = document.querySelector(".list-grup");
+    const ul = document.querySelector(".list-group");
     courses.forEach((course) => {
         
         const li = document.createElement("li");
@@ -34,7 +34,7 @@ function generateLIST() {
         span.appendChild(price);
 
         li.appendChild(span);
-        ul.appendChild
+        ul.appendChild(li);
     }); 
 }
 
