@@ -1,3 +1,4 @@
+
 const courses = [
     {
         name: "Complete JS Course",
@@ -19,6 +20,7 @@ const courses = [
 
 function generateLIST() {
     const ul = document.querySelector(".list-group");
+    ul.innerHTML = "";
     courses.forEach((course) => {
         
         const li = document.createElement("li");
@@ -40,3 +42,16 @@ function generateLIST() {
 
 // generateLIST();
 window.addEventListener("load", generateLIST);
+
+const buton = document.querySelector(".sort-btn")
+
+buton.addEventListener("click", () => {
+    courses.sort((a, b) => a.price - b.price);
+    generateLIST();
+})
+const button = document.querySelector(".btn-danger")
+
+button.addEventListener("click", () => {
+    courses.sort((a, b) => b.price - a.price);
+    generateLIST();
+})
