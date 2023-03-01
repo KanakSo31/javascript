@@ -7,3 +7,6 @@ myMap.set(4, "Cuatro");
 
 console.log(myMap);
 
+for (let key of myMap.keys()){
+    console.log(`key is ${key}`);
+}
