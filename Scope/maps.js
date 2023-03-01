@@ -15,3 +15,10 @@ console.log("And Values are:");
 for (let values of myMap.values()){
     console.log(`Value is ${values}`);
 }
+// If you want to print both of them:
+
+for (let [key, values] of myMap.values()){
+    console.log(`key is: ${key} and Value is ${values}`);
+}
+
+myMap.forEach((v, k) => console.log(`${v} and key is ${k}`));
