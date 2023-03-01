@@ -22,3 +22,6 @@ for (let [key, values] of myMap.values()){
 }
 
 myMap.forEach((v, k) => console.log(`${v} and key is ${k}`));
+
+myMap.delete(2);
+console.log(myMap);
