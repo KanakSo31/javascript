@@ -10,3 +10,8 @@ console.log(myMap);
 for (let key of myMap.keys()){
     console.log(`key is ${key}`);
 }
+
+console.log("And Values are:");
+for (let values of myMap.values()){
+    console.log(`Value is ${values}`);
+}
