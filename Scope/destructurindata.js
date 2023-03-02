@@ -9,5 +9,8 @@ let [name, courseCount, role] = user;
 const MyUser = {
     namee : "kanak",
     courseCount : 5,
-    role: "Admin"
-}
+    role: "Admin",
+};
+
+
+console.log(MyUser.courseCount);
