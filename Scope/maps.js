@@ -20,6 +20,7 @@ for (let values of myMap.values()){
 for (let [key, values] of myMap.values()){
     console.log(`key is: ${key} and Value is ${values}`);
 }
+// for loop offer/give the key first & valueafter that but the forEach gives the value first and then key
 
 myMap.forEach((v, k) => console.log(`${v} and key is ${k}`));
 
