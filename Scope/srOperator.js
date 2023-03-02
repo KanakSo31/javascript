@@ -11,4 +11,13 @@ function sumOne(a, b) {
 }
 
 let myA = [5, 4]
+// console.log(sumOne(myA));
 console.log(sumOne(...myA));//SPREAD operator..
+
+function sumTwo(...args) {
+    let sum = 0;
+    for (const arg of args) {
+        // sum = sum + arg; //long hand notation
+        sum + arg;   
+    }
+}
