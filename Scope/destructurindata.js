@@ -13,4 +13,6 @@ const MyUser = {
 };
 
 
-console.log(MyUser.courseCount);
+console.log("Name Is :"+ MyUser.namee);
+console.log("Course Enrolled in :"+ MyUser.courseCount);
+console.log("Role Is :"+ MyUser.role);
