@@ -8,3 +8,7 @@ kanak.cnrollCourse("Angular Bootcamp");
 
 
 console.log(kanak.getCourseList());
+
+let courses = kanak.getCourseList();
+
+courses.forEach((c) => console.log(c));
