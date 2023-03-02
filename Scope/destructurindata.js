@@ -4,4 +4,10 @@ const user = ["kanak", 3, "Admin"];
 
 let [name, courseCount, role] = user;
 
-console.log(role);
+// console.log(role);
+
+const MyUser = {
+    namee : "kanak",
+    courseCount : 5,
+    role: "Admin"
+}
