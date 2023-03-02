@@ -10,14 +10,18 @@ function sumOne(a, b) {
     return a+b;
 }
 
-let myA = [5, 4]
+let myA = [5, 4] 
 // console.log(sumOne(myA));
-console.log(sumOne(...myA));//SPREAD operator..
+console.log(sumOne(...myA));//SPREAD operator..this break the array and try to separate them indivisual 
 
-function sumTwo(...args) {
+function sumTwo(a, b, ...args) {//REST operator  ..convert indivisual value into an array.
+    let multi = a * b;
     let sum = 0;
     for (const arg of args) {
         // sum = sum + arg; //long hand notation
-        sum + arg;   
+        sum += arg;   //shorthand notation
     }
+    return [sum, multi];
 }
+
+console.log(sumTwo(2, 3, 1, 1, 1));
