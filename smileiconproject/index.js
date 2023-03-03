@@ -31,7 +31,7 @@ function checkIt() {
   } else {
     fail();
   }
-}
+} //try to use this checkIt function in turnary operator or easier and refactored one
 
 function success() {
   //   console.log("Success");
@@ -55,7 +55,6 @@ function reset() {
   secondCard = null;
 }
 
-//TODO: shuffle
 //TODO: shuffle
 
 (function shuffle() {
