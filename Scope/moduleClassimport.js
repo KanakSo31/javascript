@@ -28,7 +28,7 @@ class SubAdmin extends User{
     }
     login(){
         return "login for admin Only"
-        //super keyword H/W inheritance video
+        //super keyword H/W inheritance video(overriding/class/constructor)
     }
 }
 
