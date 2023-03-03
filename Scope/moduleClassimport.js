@@ -13,6 +13,23 @@ class User{
     getCourseList(){    //getter helps to grab some information from a private class
         return this.#courseList;
     }
+// privacy using static //put "static" key to see the result "static login()"
+ login(){
+    return "you're Signed In";
+}
+}
+
+class SubAdmin extends User{
+    constructor(name, email){
+        super(name, email);
+    }
+    getAdminInfo(){
+        return "I am subadmin"
+    }
+    login(){
+        return "login for admin Only"
+        //super keyword H/W inheritance video
+    }
 }
 
 module.exports = User;
@@ -22,3 +39,8 @@ console.log(rabon.getInfo());
 rabon.enrollCourse("Angular Course");
 console.log(rabon.getCourseList());
 console.log(rabon.CourseList);
+
+const tom = new SubAdmin("tom", "tom@jerry.com");
+console.log(tom.getAdminInfo());
+console.log(tom.login());
+console.log(tom.getInfo());
