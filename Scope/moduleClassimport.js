@@ -16,3 +16,9 @@ class User{
 }
 
 module.exports = User;
+
+const rabon = new User ("User", "User@usr.com");
+console.log(rabon.getInfo());
+rabon.enrollCourse("Angular Course");
+console.log(rabon.getCourseList());
+console.log(rabon.CourseList);
