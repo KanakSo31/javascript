@@ -3,15 +3,15 @@ class User{
         this.name =name;
         this.email =email;
     }
-    courseList = []
+    #courseList = []
     getInfo(){
         return{name: this.name, email: this.email};
     }
     enrollCourse(name){
-        this.courseList.push(name);
+        this.#courseList.push(name);
     }
-    getCourseList(){
-        return this.courseList;
+    getCourseList(){    //getter helps to grab some information from a private class
+        return this.#courseList;
     }
 }
 
