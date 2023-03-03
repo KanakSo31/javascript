@@ -56,6 +56,7 @@ function reset() {
 }
 
 //TODO: shuffle
+//TODO: shuffle
 
 (function shuffle() {
   cards.forEach((card) => {
